@@ -22,6 +22,8 @@ window.configure()
 window.title("Solar Buddy")
 window.geometry("1200x1000")
 fig, ax = plt.subplots()
+plt.xlabel('US States')
+plt.ylabel('Power Generated (MW')
 plt.grid()
 
 #####################################################################################
